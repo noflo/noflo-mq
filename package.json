@@ -1,22 +1,28 @@
 {
   "name": "noflo-mq",
   "description": "Message Queue components for the NoFlo flow-based programming environment",
-  "keywords": ["noflo", "messagequeue", "mq"],
+  "keywords": [
+    "noflo",
+    "messagequeue",
+    "mq"
+  ],
   "author": "Henri Bergius <henri.bergius@iki.fi>",
   "version": "0.0.5",
-  "licenses": [{
-    "type": "MIT",
-    "url": "https://github.com/bergie/noflo/raw/master/LICENSE"
-  }],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/bergie/noflo/raw/master/LICENSE"
+    }
+  ],
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/noflo/noflo-mq.git"
+    "type": "git",
+    "url": "https://github.com/noflo/noflo-mq.git"
   },
   "engines": {
     "node": ">=0.6.0"
   },
   "dependencies": {
-    "noflo": "0.5.x",
+    "noflo": "0.7.2",
     "kckupmq": "0.3.x"
   },
   "devDependencies": {
